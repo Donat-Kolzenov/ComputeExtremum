@@ -24,7 +24,6 @@ namespace ExtremumDemonstration
                 Console.WriteLine("Max: " + equation.FindMax(beginMax, endMax, EPS));
 
                 equation.ComputeExtremumMethod = new Dichotomy();
-
                 Console.WriteLine("Extremum of demo equation by Dichotomy method:");
                 Console.WriteLine("Min: " + equation.FindMin(beginMin, endMin, EPS));
                 Console.WriteLine("Max: " + equation.FindMax(beginMax, endMax, EPS));
