@@ -1,8 +1,8 @@
-using System;
-using OneVariableEquation.ComputeExtremumMethod;
-
-namespace OneVariableEquation
+namespace Equation
 {
+    using System;
+    using ComputeExtremum;
+
     public class Equation
     {
         private Func<double, double> _viewForm;

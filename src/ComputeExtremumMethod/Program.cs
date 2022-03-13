@@ -1,9 +1,9 @@
-﻿using System;
-using OneVariableEquation;
-using OneVariableEquation.ComputeExtremumMethod;
-
-namespace ExtremumDemonstration
+﻿namespace ExtremumDemonstration
 {
+    using System;
+    using Equation;
+    using ComputeExtremum.Method;
+
     class Program
     {
         static void Main(string[] args)

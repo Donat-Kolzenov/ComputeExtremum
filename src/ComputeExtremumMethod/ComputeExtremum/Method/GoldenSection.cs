@@ -1,7 +1,7 @@
-using System;
-
-namespace OneVariableEquation.ComputeExtremumMethod
+namespace ComputeExtremum.Method
 {
+    using System;
+
     public class GoldenSection : IComputableExtremum
     {
         private static readonly double PHI = (1 + Math.Sqrt(5)) / 2;
