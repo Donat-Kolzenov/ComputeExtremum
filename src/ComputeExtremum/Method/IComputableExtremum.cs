@@ -1,4 +1,4 @@
-namespace ComputeExtremum
+namespace ComputeExtremum.Method
 {
     using System;
 

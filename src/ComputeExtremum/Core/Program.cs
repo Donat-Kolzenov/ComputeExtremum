@@ -1,7 +1,7 @@
-﻿namespace ExtremumDemonstration
+﻿namespace ComputeExtremum.Core
 {
     using System;
-    using Equation;
+    using ComputeExtremum.Equation;
     using ComputeExtremum.Method.GoldenSection;
     using ComputeExtremum.Method.Dichotomy;
 

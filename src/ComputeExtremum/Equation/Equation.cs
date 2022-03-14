@@ -1,7 +1,7 @@
-namespace Equation
+namespace ComputeExtremum.Equation
 {
     using System;
-    using ComputeExtremum;
+    using ComputeExtremum.Method;
 
     public class Equation
     {
