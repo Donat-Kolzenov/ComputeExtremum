@@ -1,4 +1,4 @@
-namespace ComputeExtremum.Tests
+namespace ComputeExtremum.Tests.Method
 {
     using System;
     using NUnit.Framework;
