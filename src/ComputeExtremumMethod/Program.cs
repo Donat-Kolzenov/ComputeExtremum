@@ -2,11 +2,12 @@
 {
     using System;
     using Equation;
-    using ComputeExtremum.Method;
+    using ComputeExtremum.Method.GoldenSection;
+    using ComputeExtremum.Method.Dichotomy;
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             try
             {
@@ -23,7 +24,7 @@
                 Console.WriteLine("Min: " + equation.FindMin(beginMin, endMin, EPS));
                 Console.WriteLine("Max: " + equation.FindMax(beginMax, endMax, EPS));
 
-                equation.ComputeExtremumMethod = new Dichotomy();
+                equation.ExtremumMethod = new Dichotomy();
                 Console.WriteLine("Extremum of demo equation by Dichotomy method:");
                 Console.WriteLine("Min: " + equation.FindMin(beginMin, endMin, EPS));
                 Console.WriteLine("Max: " + equation.FindMax(beginMax, endMax, EPS));

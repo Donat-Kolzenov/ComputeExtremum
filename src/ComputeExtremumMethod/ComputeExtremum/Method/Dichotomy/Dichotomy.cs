@@ -1,4 +1,4 @@
-namespace ComputeExtremum.Method
+namespace ComputeExtremum.Method.Dichotomy
 {
     using System;
 
