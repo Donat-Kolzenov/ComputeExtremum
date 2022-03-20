@@ -1,7 +1,7 @@
-using System;
-
-namespace OneVariableEquation.ComputeExtremumMethod
+namespace ComputeExtremum.Method.Dichotomy
 {
+    using System;
+
     public class Dichotomy : IComputableExtremum
     {
         /// <inheritdoc cref="IComputableExtremum.FindMin"/>
